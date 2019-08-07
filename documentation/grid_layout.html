@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lazy Kit Grid Layout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/lazy.css">
+    <link rel="stylesheet" href="../assets/vendor/prism/prism.css">
+    <link rel="stylesheet" href="../assets/css/demo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+  </head>
+  <body class="documentation language-html">
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary mb-4 fixed-top">
+    <a class="navbar-brand d-flex align-items-center" href="#"><img src="../assets/img/logo_white.svg" alt="Example Navbar 1" class="mr-1 ml-2" height="30"> Lazy Kit</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown-3" aria-controls="navbarNavDropdown-3"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mr-auto" id="navbarNavDropdown-3">
+      <ul class="navbar-nav ml-auto text-center">
+        <li class="nav-item mr-2">
+          <a class="btn btn-outline-light" href="/index.html">
+            Live Preview
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="btn btn-light" href="#">
+            Download
+          </a>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+  <h6 class="sidebar-heading">Introduction</h6>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a href="/documentation/getting_started.html"  class="nav-link" >
+        Getting Started
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="/documentation/license.html"  class="nav-link" >
+        License
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="/documentation/contents.html"  class="nav-link" >
+        Contents
+      </a>
+    </li>
+  </ul>
+
+  <h6 class="sidebar-heading core">Components</h6>
+  <ul class="nav flex-column">
+    
+    <li class="nav-item">
+      <a href="/documentation/alerts.html"  class="nav-link" >
+        Alerts
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/badges.html"  class="nav-link" >
+        Badges
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/buttons.html"  class="nav-link" >
+        Buttons
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/cards.html"  class="nav-link" >
+        Cards
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/dropdowns.html"  class="nav-link" >
+        Dropdowns
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/font_awesome.html"  class="nav-link" >
+        Font Awesome
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/forms.html"  class="nav-link" >
+        Forms
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/grid_layout.html"  class="nav-link active" >
+        Grid & Layout
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/modals.html"  class="nav-link" >
+        Modals
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/navbars.html"  class="nav-link" >
+        Navbar
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/navs.html"  class="nav-link" >
+        Navs
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/pagination.html"  class="nav-link" >
+        Pagination
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/progress_bars.html"  class="nav-link" >
+        Progress Bars
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/sliders.html"  class="nav-link" >
+        Sliders
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/tooltips_popovers.html"  class="nav-link" >
+        Tooltips & Popovers
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/typography.html"  class="nav-link" >
+        Typography
+      </a>
+    </li>
+    
+  </ul>
+
+  <h6 class="sidebar-heading core">Help & Support</h6>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a href="/documentation/credits.html"  class="nav-link" >
+        Credits
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="/documentation/support.html"  class="nav-link" >
+        Support
+      </a>
+    </li>
+  </ul>
+</div>
+
+        </nav>
+        <div class="col-md-8 offset-md-2 content">
+          <h2>Grid Layout</h2>
+<p>
+  Lazy Kit uses the Bootstrap 12 columns grid system. If you want to learn more about using it, please look at our <a href="https://bootstrapbay.com/blog/day-2-bootstrap-4-grid-system-tutorial-examples/" target="_blank">Bootstrap grid system tutorial</a>. We start from the basic structure and go more in depth over there. Learning more about <a href="https://bootstrapbay.com/blog/day-3-bootstrap-4-flex-tutorial-and-examples/" target="_blank">Bootstrap 4 flex</a> is also useful, as it makes aligning items much easier and it is the basis for the grid system.
+</p>
+
+          
+<div class="d-flex justify-content-between mt-5">
+  <div class="prev">
+  
+    <a class="btn btn-outline-primary" href="/documentation/forms.html"><i class="fas fa-arrow-left"></i> Previous</a>
+  
+  </div>
+  <div class="next">
+    
+      <a class="btn btn-outline-primary" href="/documentation/modals.html">Next <i class="fas fa-arrow-right"></i></a>
+    
+
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/popper/popper.min.js"></script>
+    <script src="../assets/vendor/bootstrap/bootstrap.min.js" ></script>
+
+    <!-- optional plugins -->
+    <script src="../assets/vendor/nouislider/js/nouislider.min.js"></script>
+
+    <!-- prism for code documentation -->
+    <script src="../assets/vendor/prism/prism.js"></script>
+
+    <!--   lazy javascript -->
+    <script src="../assets/js/lazy.js"></script>
+    <script src="../assets/js/demo.js"></script>
+  </body>
+</html>

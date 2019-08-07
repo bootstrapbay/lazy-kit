@@ -1,0 +1,336 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lazy Kit Dropdowns</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/lazy.css">
+    <link rel="stylesheet" href="../assets/vendor/prism/prism.css">
+    <link rel="stylesheet" href="../assets/css/demo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+  </head>
+  <body class="documentation language-html">
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary mb-4 fixed-top">
+    <a class="navbar-brand d-flex align-items-center" href="#"><img src="../assets/img/logo_white.svg" alt="Example Navbar 1" class="mr-1 ml-2" height="30"> Lazy Kit</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown-3" aria-controls="navbarNavDropdown-3"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mr-auto" id="navbarNavDropdown-3">
+      <ul class="navbar-nav ml-auto text-center">
+        <li class="nav-item mr-2">
+          <a class="btn btn-outline-light" href="/index.html">
+            Live Preview
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="btn btn-light" href="#">
+            Download
+          </a>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+  <h6 class="sidebar-heading">Introduction</h6>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a href="/documentation/getting_started.html"  class="nav-link" >
+        Getting Started
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="/documentation/license.html"  class="nav-link" >
+        License
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="/documentation/contents.html"  class="nav-link" >
+        Contents
+      </a>
+    </li>
+  </ul>
+
+  <h6 class="sidebar-heading core">Components</h6>
+  <ul class="nav flex-column">
+    
+    <li class="nav-item">
+      <a href="/documentation/alerts.html"  class="nav-link" >
+        Alerts
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/badges.html"  class="nav-link" >
+        Badges
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/buttons.html"  class="nav-link" >
+        Buttons
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/cards.html"  class="nav-link" >
+        Cards
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/dropdowns.html"  class="nav-link active" >
+        Dropdowns
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/font_awesome.html"  class="nav-link" >
+        Font Awesome
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/forms.html"  class="nav-link" >
+        Forms
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/grid_layout.html"  class="nav-link" >
+        Grid & Layout
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/modals.html"  class="nav-link" >
+        Modals
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/navbars.html"  class="nav-link" >
+        Navbar
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/navs.html"  class="nav-link" >
+        Navs
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/pagination.html"  class="nav-link" >
+        Pagination
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/progress_bars.html"  class="nav-link" >
+        Progress Bars
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/sliders.html"  class="nav-link" >
+        Sliders
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/tooltips_popovers.html"  class="nav-link" >
+        Tooltips & Popovers
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/typography.html"  class="nav-link" >
+        Typography
+      </a>
+    </li>
+    
+  </ul>
+
+  <h6 class="sidebar-heading core">Help & Support</h6>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a href="/documentation/credits.html"  class="nav-link" >
+        Credits
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="/documentation/support.html"  class="nav-link" >
+        Support
+      </a>
+    </li>
+  </ul>
+</div>
+
+        </nav>
+        <div class="col-md-8 offset-md-2 content">
+          <h2>Dropdowns</h2>
+<p>
+  Toggle contextual overlays for displaying lists of links and more with the Bootstrap dropdown plugin.
+  </p>
+<div class="component">
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Regular
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+  </div>
+</div>
+<pre><code>&lt;div class=&quot;dropdown&quot;&gt;
+  &lt;button class=&quot;btn btn-secondary dropdown-toggle&quot; type=&quot;button&quot; id=&quot;dropdownMenuButton&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+    Regular
+  &lt;/button&gt;
+  &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenuButton&quot;&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<div class="space"></div>
+<h4>Contextual Classes</h4>
+<p>
+ You can add dropdowns to any button class.
+</p>
+<div class="component">
+  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+    <button type="button" class="btn btn-primary">Primary</button>
+    <div class="btn-group" role="group">
+      <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        <a class="dropdown-item" href="#">Dropdown link</a>
+        <a class="dropdown-item" href="#">Dropdown link</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+    <button type="button" class="btn btn-success">Success</button>
+    <div class="btn-group" role="group">
+      <button id="btnGroupDrop2" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+      <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+        <a class="dropdown-item" href="#">Dropdown link</a>
+        <a class="dropdown-item" href="#">Dropdown link</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+    <button type="button" class="btn btn-info">Info</button>
+    <div class="btn-group" role="group">
+      <button id="btnGroupDrop3" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+      <div class="dropdown-menu" aria-labelledby="btnGroupDrop3">
+        <a class="dropdown-item" href="#">Dropdown link</a>
+        <a class="dropdown-item" href="#">Dropdown link</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+    <button type="button" class="btn btn-danger">Danger</button>
+    <div class="btn-group" role="group">
+      <button id="btnGroupDrop4" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+      <div class="dropdown-menu" aria-labelledby="btnGroupDrop4">
+        <a class="dropdown-item" href="#">Dropdown link</a>
+        <a class="dropdown-item" href="#">Dropdown link</a>
+      </div>
+    </div>
+  </div>
+</div>
+<pre><code>&lt;div class=&quot;btn-group&quot; role=&quot;group&quot; aria-label=&quot;Button group with nested dropdown&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;
+  &lt;div class=&quot;btn-group&quot; role=&quot;group&quot;&gt;
+    &lt;button id=&quot;btnGroupDrop1&quot; type=&quot;button&quot; class=&quot;btn btn-primary dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;&lt;/button&gt;
+    &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;btnGroupDrop1&quot;&gt;
+      &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;
+      &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;btn-group&quot; role=&quot;group&quot; aria-label=&quot;Button group with nested dropdown&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-success&quot;&gt;Success&lt;/button&gt;
+  &lt;div class=&quot;btn-group&quot; role=&quot;group&quot;&gt;
+    &lt;button id=&quot;btnGroupDrop2&quot; type=&quot;button&quot; class=&quot;btn btn-success dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;&lt;/button&gt;
+    &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;btnGroupDrop2&quot;&gt;
+      &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;
+      &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;btn-group&quot; role=&quot;group&quot; aria-label=&quot;Button group with nested dropdown&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-info&quot;&gt;Info&lt;/button&gt;
+  &lt;div class=&quot;btn-group&quot; role=&quot;group&quot;&gt;
+    &lt;button id=&quot;btnGroupDrop3&quot; type=&quot;button&quot; class=&quot;btn btn-info dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;&lt;/button&gt;
+    &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;btnGroupDrop3&quot;&gt;
+      &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;
+      &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;btn-group&quot; role=&quot;group&quot; aria-label=&quot;Button group with nested dropdown&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot;&gt;Danger&lt;/button&gt;
+  &lt;div class=&quot;btn-group&quot; role=&quot;group&quot;&gt;
+    &lt;button id=&quot;btnGroupDrop4&quot; type=&quot;button&quot; class=&quot;btn btn-danger dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;&lt;/button&gt;
+    &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;btnGroupDrop4&quot;&gt;
+      &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;
+      &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+          
+<div class="d-flex justify-content-between mt-5">
+  <div class="prev">
+  
+    <a class="btn btn-outline-primary" href="/documentation/cards.html"><i class="fas fa-arrow-left"></i> Previous</a>
+  
+  </div>
+  <div class="next">
+    
+      <a class="btn btn-outline-primary" href="/documentation/font_awesome.html">Next <i class="fas fa-arrow-right"></i></a>
+    
+
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/popper/popper.min.js"></script>
+    <script src="../assets/vendor/bootstrap/bootstrap.min.js" ></script>
+
+    <!-- optional plugins -->
+    <script src="../assets/vendor/nouislider/js/nouislider.min.js"></script>
+
+    <!-- prism for code documentation -->
+    <script src="../assets/vendor/prism/prism.js"></script>
+
+    <!--   lazy javascript -->
+    <script src="../assets/js/lazy.js"></script>
+    <script src="../assets/js/demo.js"></script>
+  </body>
+</html>

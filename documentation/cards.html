@@ -1,0 +1,351 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lazy Kit Cards</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/lazy.css">
+    <link rel="stylesheet" href="../assets/vendor/prism/prism.css">
+    <link rel="stylesheet" href="../assets/css/demo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+  </head>
+  <body class="documentation language-html">
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary mb-4 fixed-top">
+    <a class="navbar-brand d-flex align-items-center" href="#"><img src="../assets/img/logo_white.svg" alt="Example Navbar 1" class="mr-1 ml-2" height="30"> Lazy Kit</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown-3" aria-controls="navbarNavDropdown-3"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mr-auto" id="navbarNavDropdown-3">
+      <ul class="navbar-nav ml-auto text-center">
+        <li class="nav-item mr-2">
+          <a class="btn btn-outline-light" href="/index.html">
+            Live Preview
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="btn btn-light" href="#">
+            Download
+          </a>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+  <h6 class="sidebar-heading">Introduction</h6>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a href="/documentation/getting_started.html"  class="nav-link" >
+        Getting Started
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="/documentation/license.html"  class="nav-link" >
+        License
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="/documentation/contents.html"  class="nav-link" >
+        Contents
+      </a>
+    </li>
+  </ul>
+
+  <h6 class="sidebar-heading core">Components</h6>
+  <ul class="nav flex-column">
+    
+    <li class="nav-item">
+      <a href="/documentation/alerts.html"  class="nav-link" >
+        Alerts
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/badges.html"  class="nav-link" >
+        Badges
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/buttons.html"  class="nav-link" >
+        Buttons
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/cards.html"  class="nav-link active" >
+        Cards
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/dropdowns.html"  class="nav-link" >
+        Dropdowns
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/font_awesome.html"  class="nav-link" >
+        Font Awesome
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/forms.html"  class="nav-link" >
+        Forms
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/grid_layout.html"  class="nav-link" >
+        Grid & Layout
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/modals.html"  class="nav-link" >
+        Modals
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/navbars.html"  class="nav-link" >
+        Navbar
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/navs.html"  class="nav-link" >
+        Navs
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/pagination.html"  class="nav-link" >
+        Pagination
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/progress_bars.html"  class="nav-link" >
+        Progress Bars
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/sliders.html"  class="nav-link" >
+        Sliders
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/tooltips_popovers.html"  class="nav-link" >
+        Tooltips & Popovers
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/typography.html"  class="nav-link" >
+        Typography
+      </a>
+    </li>
+    
+  </ul>
+
+  <h6 class="sidebar-heading core">Help & Support</h6>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a href="/documentation/credits.html"  class="nav-link" >
+        Credits
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="/documentation/support.html"  class="nav-link" >
+        Support
+      </a>
+    </li>
+  </ul>
+</div>
+
+        </nav>
+        <div class="col-md-8 offset-md-2 content">
+          <h2>Cards</h2>
+<p>
+A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options. If want to learn more about how to create cards, check out our <a href="https://bootstrapbay.com/blog/day-13-bootstrap-4-cards-tutorial-and-examples/" target="_blank">Bootstrap 4 cards tutorial</a>.
+</p>
+<p>Inside the Lazy Kit we have restyled the basic Bootstrap 4 cards. We have also added a default hover effect. If you want to disabled it, you need to add the <code>.no-hover</code> class. Here is how a basic example looks:</p>
+<div class="component">
+  <div class="card">
+    <div class="card-body">
+      This is some text within a card block.
+    </div>
+  </div>
+</div>
+<pre><code>&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    This is some text within a card block.
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+<div class="space"></div>
+<h4>Adding elements</h4>
+<p>
+  You can achieve interesting results by adding images, setting a title and using buttons.
+</p>
+<div class="component w-50">
+  <div class="card">
+    <div class="card-header">
+      <img class="card-img" src="assets/img/dog-1.jpg" alt="dog">
+    </div>
+    <div class="card-body">
+      <span class="badge badge-success">Pets</span>
+      <h4 class="card-title mt-2">How to look after and care for a dog</h4>
+      <p class="card-text">Owning a dog is great fun and immensely rewarding. But, dogs have complex needs and each dog is unique. </p>
+    </div>
+    <div class="card-footer">
+      <a href="#a" class="btn btn-primary">Read More</a>
+    </div>
+  </div>
+</div>
+<pre><code>&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;card-header&quot;&gt;
+    &lt;img class=&quot;card-img&quot; src=&quot;assets/img/dog-1.jpg&quot; alt=&quot;dog&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;span class=&quot;badge badge-success&quot;&gt;Pets&lt;/span&gt;
+    &lt;h4 class=&quot;card-title mt-2&quot;&gt;How to look after and care for a dog&lt;/h4&gt;
+    &lt;p class=&quot;card-text&quot;&gt;Owning a dog is great fun and immensely rewarding. But, dogs have complex needs and each dog is unique. &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;card-footer&quot;&gt;
+    &lt;a href=&quot;#a&quot; class=&quot;btn btn-primary&quot;&gt;Read More&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<div class="space"></div>
+<h4>Sizing Cards</h4>
+<p>
+  Cards are block elements, so occupy the full-width of the parent element, but you can esily control their sizing by utilizing grid markup or sizing utilities.
+</p>
+<div class="component">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="component">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-img" src="assets/img/dog-3.jpg" alt="dog">
+          </div>
+          <div class="card-body">
+            <span class="badge badge-secondary">Hobby</span>
+            <h4 class="card-title mt-2">Getting Started With Your Puppy</h4>
+            <p class="card-text">This new addition to your family will require lots of love, attention and plenty of supplies. </p>
+          </div>
+          <div class="card-footer">
+            <a href="#a" class="btn btn-outline-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="component">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-img" src="assets/img/dog-2.jpg" alt="dog">
+          </div>
+          <div class="card-body">
+            <span class="badge badge-warning">Vacation</span>
+            <h4 class="card-title mt-2">Woof! How to find dog-friendly beaches in Spain</h4>
+            <p class="card-text">Considering Spain's abundant coastline, beaches that do allow you to take your pooch to feel sand... </p>
+          </div>
+          <div class="card-footer">
+            <a href="#a" class="btn btn-outline-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<pre><code>&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;div class=&quot;component&quot;&gt;
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;div class=&quot;card-header&quot;&gt;
+          &lt;img class=&quot;card-img&quot; src=&quot;assets/img/dog-3.jpg&quot; alt=&quot;dog&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;card-body&quot;&gt;
+          &lt;span class=&quot;badge badge-secondary&quot;&gt;Hobby&lt;/span&gt;
+          &lt;h4 class=&quot;card-title mt-2&quot;&gt;Getting Started With Your Puppy&lt;/h4&gt;
+          &lt;p class=&quot;card-text&quot;&gt;This new addition to your family will require lots of love, attention and plenty of supplies. &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;card-footer&quot;&gt;
+          &lt;a href=&quot;#a&quot; class=&quot;btn btn-outline-primary&quot;&gt;Read More&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-md-6&quot;&gt;
+    &lt;div class=&quot;component&quot;&gt;
+      &lt;div class=&quot;card&quot;&gt;
+        &lt;div class=&quot;card-header&quot;&gt;
+          &lt;img class=&quot;card-img&quot; src=&quot;assets/img/dog-2.jpg&quot; alt=&quot;dog&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;card-body&quot;&gt;
+          &lt;span class=&quot;badge badge-warning&quot;&gt;Vacation&lt;/span&gt;
+          &lt;h4 class=&quot;card-title mt-2&quot;&gt;Woof! How to find dog-friendly beaches in Spain&lt;/h4&gt;
+          &lt;p class=&quot;card-text&quot;&gt;Considering Spain's abundant coastline, beaches that do allow you to take your pooch to feel sand... &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;card-footer&quot;&gt;
+          &lt;a href=&quot;#a&quot; class=&quot;btn btn-outline-primary&quot;&gt;Read More&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<br / />
+<p>
+  You can also add <a href="https://bootstrapbay.com/blog/day-13-bootstrap-4-cards-tutorial-and-examples/#bootstrap-4-card-navigation" target="_blank">navigation to cards</a>, change <a href="https://bootstrapbay.com/blog/day-13-bootstrap-4-cards-tutorial-and-examples/#bootstrap-4-card-background-color" target="_blank">the card background color</a> and see more <a href="https://bootstrapbay.com/blog/day-13-bootstrap-4-cards-tutorial-and-examples/#bootstrap-4-card-layouts" target="_blank">sizing options here.</a>
+  </p>
+
+          
+<div class="d-flex justify-content-between mt-5">
+  <div class="prev">
+  
+    <a class="btn btn-outline-primary" href="/documentation/buttons.html"><i class="fas fa-arrow-left"></i> Previous</a>
+  
+  </div>
+  <div class="next">
+    
+      <a class="btn btn-outline-primary" href="/documentation/dropdowns.html">Next <i class="fas fa-arrow-right"></i></a>
+    
+
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/popper/popper.min.js"></script>
+    <script src="../assets/vendor/bootstrap/bootstrap.min.js" ></script>
+
+    <!-- optional plugins -->
+    <script src="../assets/vendor/nouislider/js/nouislider.min.js"></script>
+
+    <!-- prism for code documentation -->
+    <script src="../assets/vendor/prism/prism.js"></script>
+
+    <!--   lazy javascript -->
+    <script src="../assets/js/lazy.js"></script>
+    <script src="../assets/js/demo.js"></script>
+  </body>
+</html>

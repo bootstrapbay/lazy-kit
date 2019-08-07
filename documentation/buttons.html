@@ -1,0 +1,322 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lazy Kit Buttons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/lazy.css">
+    <link rel="stylesheet" href="../assets/vendor/prism/prism.css">
+    <link rel="stylesheet" href="../assets/css/demo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+  </head>
+  <body class="documentation language-html">
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary mb-4 fixed-top">
+    <a class="navbar-brand d-flex align-items-center" href="#"><img src="../assets/img/logo_white.svg" alt="Example Navbar 1" class="mr-1 ml-2" height="30"> Lazy Kit</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown-3" aria-controls="navbarNavDropdown-3"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mr-auto" id="navbarNavDropdown-3">
+      <ul class="navbar-nav ml-auto text-center">
+        <li class="nav-item mr-2">
+          <a class="btn btn-outline-light" href="/index.html">
+            Live Preview
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="btn btn-light" href="#">
+            Download
+          </a>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+  <h6 class="sidebar-heading">Introduction</h6>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a href="/documentation/getting_started.html"  class="nav-link" >
+        Getting Started
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="/documentation/license.html"  class="nav-link" >
+        License
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="/documentation/contents.html"  class="nav-link" >
+        Contents
+      </a>
+    </li>
+  </ul>
+
+  <h6 class="sidebar-heading core">Components</h6>
+  <ul class="nav flex-column">
+    
+    <li class="nav-item">
+      <a href="/documentation/alerts.html"  class="nav-link" >
+        Alerts
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/badges.html"  class="nav-link" >
+        Badges
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/buttons.html"  class="nav-link active" >
+        Buttons
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/cards.html"  class="nav-link" >
+        Cards
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/dropdowns.html"  class="nav-link" >
+        Dropdowns
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/font_awesome.html"  class="nav-link" >
+        Font Awesome
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/forms.html"  class="nav-link" >
+        Forms
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/grid_layout.html"  class="nav-link" >
+        Grid & Layout
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/modals.html"  class="nav-link" >
+        Modals
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/navbars.html"  class="nav-link" >
+        Navbar
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/navs.html"  class="nav-link" >
+        Navs
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/pagination.html"  class="nav-link" >
+        Pagination
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/progress_bars.html"  class="nav-link" >
+        Progress Bars
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/sliders.html"  class="nav-link" >
+        Sliders
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/tooltips_popovers.html"  class="nav-link" >
+        Tooltips & Popovers
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/typography.html"  class="nav-link" >
+        Typography
+      </a>
+    </li>
+    
+  </ul>
+
+  <h6 class="sidebar-heading core">Help & Support</h6>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a href="/documentation/credits.html"  class="nav-link" >
+        Credits
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="/documentation/support.html"  class="nav-link" >
+        Support
+      </a>
+    </li>
+  </ul>
+</div>
+
+        </nav>
+        <div class="col-md-8 offset-md-2 content">
+          <h2>Buttons</h2>
+<p>Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more. If you want to see how to use all button capabilities, check out our <a href="https://bootstrapbay.com/blog/day-6-bootstrap-4-buttons-tutorial-and-examples/" target="_blank">Bootstrap 4 buttons tutorial</a>.</p>
+<p>The <code>.btn</code> class is intended to be applied mainly to <code>&lt;button&gt;</code>s, but it can be used with anything including anchors, button input types, submit buttons or even reset inputs.</p>
+<div class="component">
+  <button type="button" class="btn btn-primary">Primary</button>
+  <button type="button" class="btn btn-secondary">Secondary</button>
+  <button type="button" class="btn btn-success">Success</button>
+  <button type="button" class="btn btn-info">Info</button>
+  <button type="button" class="btn btn-warning">Warning</button>
+  <button type="button" class="btn btn-danger">Danger</button>
+  <button type="button" class="btn btn-light">Light</button>
+  <button type="button" class="btn btn-dark">Dark</button>
+</div>
+<pre><code>&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot;&gt;Secondary&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-success&quot;&gt;Success&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-info&quot;&gt;Info&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-warning&quot;&gt;Warning&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot;&gt;Danger&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-light&quot;&gt;Light&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-dark&quot;&gt;Dark&lt;/button&gt;
+</code></pre>
+<div class="space"></div>
+<h4>Outline Buttons</h4>
+<p>In need of a button, but not the hefty background colors they bring? Replace the default modifier classes with the <code>.btn-outline-*</code> ones to remove all background images and colors on any button.</p>
+<div class="component">
+  <button type="button" class="btn btn-outline-primary">Primary</button>
+  <button type="button" class="btn btn-outline-secondary">Secondary</button>
+  <button type="button" class="btn btn-outline-success">Success</button>
+  <button type="button" class="btn btn-outline-info">Info</button>
+  <button type="button" class="btn btn-outline-warning">Warning</button>
+  <button type="button" class="btn btn-outline-danger">Danger</button>
+  <button type="button" class="btn btn-outline-light">Light</button>
+  <button type="button" class="btn btn-outline-dark">Dark</button>
+</div>
+<pre><code>&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-primary&quot;&gt;Primary&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-secondary&quot;&gt;Secondary&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-success&quot;&gt;Success&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-info&quot;&gt;Info&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-warning&quot;&gt;Warning&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-danger&quot;&gt;Danger&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-light&quot;&gt;Light&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-dark&quot;&gt;Dark&lt;/button&gt;
+</code></pre>
+
+<div class="space"></div>
+<h4>Pill Shaped Buttons</h4>
+<p>To create pill shaped buttons you can use the <code>.btn-pill</code> utility class.</p>
+<div class="component">
+  <button type="button" class="btn btn-primary btn-pill">Primary</button>
+  <button type="button" class="btn btn-secondary btn-pill">Secondary</button>
+  <button type="button" class="btn btn-success btn-pill">Success</button>
+  <button type="button" class="btn btn-info btn-pill">Info</button>
+  <button type="button" class="btn btn-warning btn-pill">Warning</button>
+  <button type="button" class="btn btn-danger btn-pill">Danger</button>
+  <button type="button" class="btn btn-light btn-pill">Light</button>
+  <button type="button" class="btn btn-dark btn-pill">Dark</button>
+</div>
+<div class="component">
+  <button type="button" class="btn btn-outline-primary btn-pill">Primary</button>
+  <button type="button" class="btn btn-outline-secondary btn-pill">Secondary</button>
+  <button type="button" class="btn btn-outline-success btn-pill">Success</button>
+  <button type="button" class="btn btn-outline-info btn-pill">Info</button>
+  <button type="button" class="btn btn-outline-warning btn-pill">Warning</button>
+  <button type="button" class="btn btn-outline-danger btn-pill">Danger</button>
+  <button type="button" class="btn btn-outline-light btn-pill">Light</button>
+  <button type="button" class="btn btn-outline-dark btn-pill">Dark</button>
+</div>
+<pre><code>&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-pill&quot;&gt;Primary&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary btn-pill&quot;&gt;Secondary&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-success btn-pill&quot;&gt;Success&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-pill&quot;&gt;Info&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-warning btn-pill&quot;&gt;Warning&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-danger btn-pill&quot;&gt;Danger&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-light btn-pill&quot;&gt;Light&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-dark btn-pill&quot;&gt;Dark&lt;/button&gt;
+
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-primary btn-pill&quot;&gt;Primary&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-secondary btn-pill&quot;&gt;Secondary&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-success btn-pill&quot;&gt;Success&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-info btn-pill&quot;&gt;Info&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-warning btn-pill&quot;&gt;Warning&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-danger btn-pill&quot;&gt;Danger&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-light btn-pill&quot;&gt;Light&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-dark btn-pill&quot;&gt;Dark&lt;/button&gt;
+</code>
+</pre>
+
+<div class="space"></div>
+<h4>Setting Sizes</h4>
+<p>
+The button sizes available in Bootstrap 4 are also available in Shards. You can change a button’s size by using either the <code>.btn-lg</code> or the <code>.btn-sm</code> class.
+</p>
+<div class="component">
+  <button type="button" class="btn btn-danger btn-lg">Large button</button>
+  <button type="button" class="btn btn-outline-danger btn-icon btn-lg"><i class="fas fa-heart"></i></button>
+  <button type="button" class="btn btn-danger">Default button</button>
+  <button type="button" class="btn btn-outline-danger btn-icon"><i class="fas fa-heart"></i></button>
+  <button type="button" class="btn btn-danger btn-sm">Small button</button>
+  <button type="button" class="btn btn-outline-danger btn-icon btn-sm"><i class="fas fa-heart"></i></button>
+</div>
+<pre><code>&lt;button type=&quot;button&quot; class=&quot;btn btn-danger btn-lg&quot;&gt;Large button&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-danger btn-icon btn-lg&quot;&gt;&lt;i class=&quot;fas fa-heart&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot;&gt;Default button&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-danger btn-icon&quot;&gt;&lt;i class=&quot;fas fa-heart&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-danger btn-sm&quot;&gt;Small button&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-danger btn-icon btn-sm&quot;&gt;&lt;i class=&quot;fas fa-heart&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+</code></pre>
+
+          
+<div class="d-flex justify-content-between mt-5">
+  <div class="prev">
+  
+    <a class="btn btn-outline-primary" href="/documentation/badges.html"><i class="fas fa-arrow-left"></i> Previous</a>
+  
+  </div>
+  <div class="next">
+    
+      <a class="btn btn-outline-primary" href="/documentation/cards.html">Next <i class="fas fa-arrow-right"></i></a>
+    
+
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/popper/popper.min.js"></script>
+    <script src="../assets/vendor/bootstrap/bootstrap.min.js" ></script>
+
+    <!-- optional plugins -->
+    <script src="../assets/vendor/nouislider/js/nouislider.min.js"></script>
+
+    <!-- prism for code documentation -->
+    <script src="../assets/vendor/prism/prism.js"></script>
+
+    <!--   lazy javascript -->
+    <script src="../assets/js/lazy.js"></script>
+    <script src="../assets/js/demo.js"></script>
+  </body>
+</html>

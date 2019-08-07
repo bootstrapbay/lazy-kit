@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="283px" height="283px" viewBox="0 0 283 283" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.6">
+        <g id="Slack-Logo" transform="translate(-59.000000, -39.000000)" fill-rule="nonzero">
+            <g id="Logo" transform="translate(51.000000, 30.000000)">
+                <rect id="Rectangle" fill="#ECB22E" x="9" y="9" width="280" height="41" rx="20"></rect>
+                <rect id="Rectangle" fill="#1364A3" transform="translate(149.000000, 150.500000) rotate(45.000000) translate(-149.000000, -150.500000) " x="-41" y="130" width="380" height="41" rx="20"></rect>
+                <rect id="Rectangle" fill="#E01E5A" x="9" y="249" width="280" height="41" rx="20"></rect>
+                <rect id="Rectangle" fill="#007A5A" transform="translate(149.707107, 149.792893) rotate(-45.000000) translate(-149.707107, -149.792893) " x="-40.2928932" y="129.292893" width="380" height="41" rx="20"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

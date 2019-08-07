@@ -1,0 +1,270 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lazy Kit Tooltips and Popovers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/lazy.css">
+    <link rel="stylesheet" href="../assets/vendor/prism/prism.css">
+    <link rel="stylesheet" href="../assets/css/demo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+  </head>
+  <body class="documentation language-html">
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary mb-4 fixed-top">
+    <a class="navbar-brand d-flex align-items-center" href="#"><img src="../assets/img/logo_white.svg" alt="Example Navbar 1" class="mr-1 ml-2" height="30"> Lazy Kit</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown-3" aria-controls="navbarNavDropdown-3"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mr-auto" id="navbarNavDropdown-3">
+      <ul class="navbar-nav ml-auto text-center">
+        <li class="nav-item mr-2">
+          <a class="btn btn-outline-light" href="/index.html">
+            Live Preview
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="btn btn-light" href="#">
+            Download
+          </a>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+  <h6 class="sidebar-heading">Introduction</h6>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a href="/documentation/getting_started.html"  class="nav-link" >
+        Getting Started
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="/documentation/license.html"  class="nav-link" >
+        License
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="/documentation/contents.html"  class="nav-link" >
+        Contents
+      </a>
+    </li>
+  </ul>
+
+  <h6 class="sidebar-heading core">Components</h6>
+  <ul class="nav flex-column">
+    
+    <li class="nav-item">
+      <a href="/documentation/alerts.html"  class="nav-link" >
+        Alerts
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/badges.html"  class="nav-link" >
+        Badges
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/buttons.html"  class="nav-link" >
+        Buttons
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/cards.html"  class="nav-link" >
+        Cards
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/dropdowns.html"  class="nav-link" >
+        Dropdowns
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/font_awesome.html"  class="nav-link" >
+        Font Awesome
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/forms.html"  class="nav-link" >
+        Forms
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/grid_layout.html"  class="nav-link" >
+        Grid & Layout
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/modals.html"  class="nav-link" >
+        Modals
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/navbars.html"  class="nav-link" >
+        Navbar
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/navs.html"  class="nav-link" >
+        Navs
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/pagination.html"  class="nav-link" >
+        Pagination
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/progress_bars.html"  class="nav-link" >
+        Progress Bars
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/sliders.html"  class="nav-link" >
+        Sliders
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/tooltips_popovers.html"  class="nav-link active" >
+        Tooltips & Popovers
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="/documentation/typography.html"  class="nav-link" >
+        Typography
+      </a>
+    </li>
+    
+  </ul>
+
+  <h6 class="sidebar-heading core">Help & Support</h6>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a href="/documentation/credits.html"  class="nav-link" >
+        Credits
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="/documentation/support.html"  class="nav-link" >
+        Support
+      </a>
+    </li>
+  </ul>
+</div>
+
+        </nav>
+        <div class="col-md-8 offset-md-2 content">
+          <h2>Tooltips & Popovers</h2>
+<p>
+  Tooltips and popovers require the Popper.js library. And they both need to be initialized inside your JS file.
+</p>
+
+<div class="space"></div>
+<h4>Tooltips</h4>
+<p>
+The easiest way to add a tooltip to an element is to add the <code>data-toggle="tooltip"</code> attribute and the <code>data-placement="..."</code> to place it top/bottom/left/right. The content that will be visible inside the tooltip needs to placed inside the <code>title</code> attribute.
+</p>
+<div class="component">
+  <button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+    Tooltip on top
+  </button>
+</div>
+<pre><code>&lt;button type=&quot;button&quot; class=&quot;btn btn-success&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;top&quot; title=&quot;Tooltip on top&quot;&gt;
+  Tooltip on top
+&lt;/button&gt;
+</code></pre>
+
+<div class="space"></div>
+<p>
+ In order for this code to work, you must specify inside your js that all elements with the <code>data-toggle="tooltip"</code> attribute should initialise a tooltip using the following code:
+</p>
+<pre><code>$(function () {
+  $('[data-toggle=&quot;tooltip&quot;]').tooltip()
+});
+</code></pre>
+
+<div class="space"></div>
+<h4>Popovers</h4>
+<p>
+If you want to add a popover to an element you need to add the  <code>data-toggle="popover"</code> attribute and the <code>data-placement="..."</code> to place it top/bottom/left/right. The content that will be visible inside the popover needs to placed inside the <code>data-content="..."</code> attribute.
+</p>
+<div class="component">
+  <button type="button" class="btn btn-success" data-container="body" data-toggle="popover" data-placement="right" data-content="Wherever you go, there you are.">
+  Popover on right
+  </button>
+</div>
+<pre><code>&lt;button type=&quot;button&quot; class=&quot;btn btn-success&quot; data-container=&quot;body&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-content=&quot;Wherever you go, there you are.&quot;&gt;
+Popover on right
+&lt;/button&gt;</code></pre>
+
+<div class="space"></div>
+<p>
+ In order for this code to work, you must specify inside your js that all elements with the <code>data-toggle="popover"</code> attribute should initialise a popover using the following code:
+</p>
+<pre><code>$(function () {
+  $('[data-toggle="popover"]').popover()
+});
+</code></pre>
+
+<div class="space"></div>
+<p>
+  If you want to see more configuration options, make sure you check out the official Bootstrap 4 documentation on <a href="https://getbootstrap.com/docs/4.1/components/tooltips/" target="_blank">tooltips</a> and <a href="https://getbootstrap.com/docs/4.1/components/popovers/" target="_blank">popovers</a>.
+</p>
+
+          
+<div class="d-flex justify-content-between mt-5">
+  <div class="prev">
+  
+    <a class="btn btn-outline-primary" href="/documentation/sliders.html"><i class="fas fa-arrow-left"></i> Previous</a>
+  
+  </div>
+  <div class="next">
+    
+      <a class="btn btn-outline-primary" href="/documentation/typography.html">Next <i class="fas fa-arrow-right"></i></a>
+    
+
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/popper/popper.min.js"></script>
+    <script src="../assets/vendor/bootstrap/bootstrap.min.js" ></script>
+
+    <!-- optional plugins -->
+    <script src="../assets/vendor/nouislider/js/nouislider.min.js"></script>
+
+    <!-- prism for code documentation -->
+    <script src="../assets/vendor/prism/prism.js"></script>
+
+    <!--   lazy javascript -->
+    <script src="../assets/js/lazy.js"></script>
+    <script src="../assets/js/demo.js"></script>
+  </body>
+</html>
