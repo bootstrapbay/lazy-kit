@@ -1,6 +1,3 @@
----
-
----
 <p align="center">
 <img src="/assets/img/presentation.jpg" width="600" />
 </p>
