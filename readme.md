@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-*Lazy Kit* is a complete design system built on Bootstrap 4. <br />
+**Lazy Kit** is a complete design system built on Bootstrap 4. <br />
 It is created for all web makers that want to get a project off the ground quickly and neatly. <br />
 It overwrites all Bootstrap 4 components and adds 2 more plugins. It also comes with 3 example pages.
 </p>
@@ -11,8 +11,8 @@ It overwrites all Bootstrap 4 components and adds 2 more plugins. It also comes 
 <br />
 
 <p align="center">
-  <a href="#">Components</a> •
-  <a href="#">Documentation</a> •
+  <a href="https://bootstrapbay.github.io/lazy-kit/">Components</a> •
+  <a href="https://bootstrapbay.github.io/lazy-kit/documentation/getting_started.html">Documentation</a> •
   <a href="#">Official Page</a>
 </p>
 
@@ -33,10 +33,11 @@ Lazy Kit is built on top of Bootstrap and uses the noUiSlider plugin and Font Aw
 * [FontAwesome Icons](http://fontawesome.io)
 
 ## Examples
-Lazy Kit comes with 3 examples that show up what you can build with it.
-* [Register Page](#)
-* [Profile Page](#)
-* [Profile Page](#)
+Lazy Kit comes with 3 examples that show you what you can build with it.
+
+| <img src="/assets/img/register.png" width="200" /> | <img src="/assets/img/profile.png" width="200" />           | <img src="/assets/img/landing.png" width="200" />         |
+| ------------- |:-------------:| -----:       |
+| [Register Page](https://bootstrapbay.github.io/lazy-kit/register.html) | [Profile Page](https://bootstrapbay.github.io/lazy-kit/profile.html)  | [Landing Page](https://bootstrapbay.github.io/lazy-kit/landing.html) |
 
 ## Quick Start
 In order to take advantage of all that Lazy Kit has to offer, you can use the following starter template that includes all the dependencies.
